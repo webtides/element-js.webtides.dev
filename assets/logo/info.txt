@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Neuton-Extralight
+font link: https://fonts.google.com/specimen/Neuton
+font author: Brian Zick
+font author site: https://brianskywalker.deviantart.com/
+
+
+icon designer: Kevin White
+icon designer link: /kevinwhitedesign
+        
+{"bg":"#29A7F1","icon":"#ffffff","font":"#ffffff","slogan":"#ffffff"}
+      

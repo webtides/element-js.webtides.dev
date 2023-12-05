@@ -1,0 +1,65 @@
+{
+	"scripts": {
+		"postinstall": "patch-package",
+		"dev": "npx luna --dev"
+	},
+	"dependencies": {
+		"@tailwindcss/typography": "^0.5.10",
+		"@webtides/element-js": "^1.0.0-alpha.7",
+		"@webtides/luna-cli": "0.11.0-dev.12",
+		"@webtides/luna-js": "0.11.0-dev.15",
+		"@webtides/luna-renderer": "0.11.0-dev.15",
+		"autoprefixer": "^10.4.16",
+		"cssnano": "^6.0.1",
+		"flexsearch": "^0.7.31",
+		"husky": "^8.0.3",
+		"lint-staged": "^15.2.0",
+		"patch-package": "^8.0.0",
+		"postcss": "^8.4.32",
+		"postcss-import": "^15.1.0",
+		"postcss-nested": "^6.0.1",
+		"prettier": "^3.1.0",
+		"prettier-plugin-tailwindcss": "^0.5.7",
+		"prismjs": "^1.29.0",
+		"tailwindcss": "^3.3.5"
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "lint-staged"
+		}
+	},
+	"lint-staged": {
+		"*.{css,js,json,yaml,yml,md}": [
+			"prettier --write"
+		]
+	},
+	"prettier": {
+		"endOfLine": "lf",
+		"printWidth": 120,
+		"trailingComma": "all",
+		"tabWidth": 4,
+		"semi": true,
+		"singleQuote": true,
+		"arrowParens": "always",
+		"overrides": [
+			{
+				"files": "*.md",
+				"options": {
+					"useTabs": false,
+					"trailingComma": "none",
+					"proseWrap": "never"
+				}
+			},
+			{
+				"files": [
+					"*.css",
+					"*.yaml",
+					"*.yml"
+				],
+				"options": {
+					"tabWidth": 2
+				}
+			}
+		]
+	}
+}

@@ -1,0 +1,11 @@
+.api
+.build
+.serverless
+.export
+content-BACKUP
+node_modules
+.env
+
+# Local Netlify folder
+.netlify
+/loewen-digital-6de9e8876760.json
