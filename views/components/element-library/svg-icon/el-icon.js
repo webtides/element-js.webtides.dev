@@ -34,7 +34,7 @@ export default class ElIcon extends TemplateElement {
 			.then((r) => r.text())
 			.then((text) => {
 				this.svgContent = text;
-				// this.requestUpdate();
+				this.requestUpdate();
 			})
 			.catch((error) => console.log({ error }));
 	}

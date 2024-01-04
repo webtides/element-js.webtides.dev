@@ -132,6 +132,7 @@ export default {
 	},
 };
 
+// TODO: implement changes from patches into element-js
 // TODO: fix layout shift because of table of contents width when navigating pages
 
 // TODO@after: add mobile table of content
