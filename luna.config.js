@@ -132,7 +132,6 @@ export default {
 	},
 };
 
-// TODO: fix element-js sometimes not replacing svg icons...
 // TODO: fix layout shift because of table of contents width when navigating pages
 
 // TODO@after: add mobile table of content

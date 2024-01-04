@@ -28,9 +28,9 @@ export default class ServiceWorkerService {
 			'/assets/docs-legend.js',
 			'/assets/docs-search.js',
 			'/assets/el-dropdown.js',
-			'/assets/TemplateElement-a4500c7b.js',
+			'/assets/TemplateElement-3856ce01.js',
 			'/assets/directives-58098d33.js',
-			'/assets/fa-icon-50fa2be8.js',
+			'/assets/directives-caf67db9.js',
 			// ICONS
 			'/assets/fa-icons/solid/bars.svg',
 			'/assets/fa-icons/solid/xmark.svg',

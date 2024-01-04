@@ -9,7 +9,7 @@ import style from './el-icon.css';
 })
 export default class ElIcon extends TemplateElement {
 	constructor() {
-		super({ styles: [style] });
+		super({ styles: [style], deferUpdate: true, autoUpdate: false });
 	}
 
 	properties() {
@@ -18,7 +18,7 @@ export default class ElIcon extends TemplateElement {
 			basePath: 'assets/icons',
 			name: '',
 			lazy: true,
-			svgContent: 'i',
+			svgContent: '',
 		};
 	}
 
