@@ -5,7 +5,7 @@
 	},
 	"dependencies": {
 		"@tailwindcss/typography": "^0.5.10",
-		"@webtides/element-js": "^1.0.0-alpha.8",
+		"@webtides/element-js": "^1.0.0-alpha.9",
 		"@webtides/luna-cli": "0.11.0-dev.12",
 		"@webtides/luna-js": "0.11.0-dev.15",
 		"@webtides/luna-renderer": "0.11.0-dev.15",
