@@ -25,7 +25,7 @@ export class DocsPage {
 		this.path = parentName
 			? `.build/public/content/docs/${parentName}/${name}`
 			: `.build/public/content/docs/${name}`;
-		this.link = `/docs/${this.name}`;
+		this.link = `/docs/${this.name}/`;
 		this.docs = docs;
 
 		// if (name.includes('.md')) {
