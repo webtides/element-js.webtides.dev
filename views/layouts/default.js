@@ -117,7 +117,7 @@ const layout = (page, context = {}) => {
 						class="relative mx-auto flex w-full max-w-8xl flex-auto justify-center sm:px-2 lg:px-8 xl:px-12"
 					>
 						<div class="search-backdrop fixed inset-0 z-30 items-start overflow-y-auto bg-slate-900/50 backdrop-blur transition-opacity opacity-0 search-open:opacity-100 pointer-events-none"></div>
-						<div close-nav class="nav-backdrop fixed inset-0 z-10 items-start overflow-y-auto bg-slate-900/50 backdrop-blur transition-opacity opacity-0 nav-open:opacity-100 pointer-events-none lg:hidden"></div>
+						<div close-nav class="nav-backdrop fixed inset-0 z-10 items-start overflow-y-auto bg-slate-900/50 backdrop-blur transition-opacity opacity-0 nav-open:opacity-100 pointer-events-none nav-open:pointer-events-auto lg:hidden"></div>
 						<div class="fixed left-0 top-0 bottom-0 z-20 transition-transform translate-x-[-100%] nav-open:translate-x-0 lg:translate-x-0 lg:relative lg:flex-none pl-6 lg:pl-0 nav-open:bg-white nav-open:dark:bg-slate-900">
 							<div class="absolute inset-y-0 right-0 w-[50vw] bg-slate-50 hidden lg:block dark:hidden"></div>
 							<div
